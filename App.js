@@ -64,6 +64,7 @@ export default function App() {
       <TextInput
         style={styles.addNew}
         onChangeText={(e) => setCityAdd(e)}
+        value={cityAdd}
       />
 
       <View style={styles.btn}>
